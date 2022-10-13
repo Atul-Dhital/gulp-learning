@@ -1,0 +1,40 @@
+.billboard {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 121px;
+  padding-right: 122px;
+}
+.billboard .billboard__item .billboard__image {
+  width: 500px;
+  height: 500px;
+}
+.billboard .billboard__text {
+  padding: 67px 0px 67px 106px;
+}
+.billboard .billboard__text .billboard__heading {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: left;
+  color: #FFFFFF;
+}
+.billboard .billboard__text .billboard__discription {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.billboard .billboard__text .billboard__cv {
+  margin-top: 30PX;
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  border-radius: 50px;
+  width: 177px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}/*# sourceMappingURL=billboard.css.map */

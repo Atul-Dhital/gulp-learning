@@ -1,0 +1,47 @@
+.service {
+  margin: 200px 121px auto 122px;
+  width: 1197px;
+  height: 855px;
+}
+.service .service__heading {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.service .service__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.service .service__grid .service__grid-item {
+  width: 389px;
+  height: 380px;
+  background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+  box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+.service .service__grid .service__grid-item .service__grid-detial {
+  padding: 60px 24px 60px 25px;
+  text-align: center;
+}
+.service .service__grid .service__grid-item .service__grid-detial .service__grid-icon {
+  width: 50px;
+  height: 50px;
+}
+.service .service__grid .service__grid-item .service__grid-detial .service__grid-heading {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.service .service__grid .service__grid-item .service__grid-detial .service__grid-discription {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+}/*# sourceMappingURL=service.css.map */

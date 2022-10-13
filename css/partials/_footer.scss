@@ -1,0 +1,74 @@
+footer{
+    padding: 194px 431px 50px 432px;
+    .footer__data{
+        width: 577px;
+        height: 478px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items:center;  
+        .footer__item{
+            .footer__logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                width: 80px;
+                height: 80px;
+                background: linear-gradient(214.02deg, #EA5F5F 6.04%, #EEAA55 92.95%);
+                border-radius: 50px;
+                p{
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 60px;letter-spacing: 0.3px;
+                    color: #FFFFFF;   
+                }
+            }
+            .footer__text{
+                margin-top: 20px;
+                align-self: center;
+                .footer__heading{
+                    width: 474px;
+                    height: 75px;
+                    font-weight: 700;
+                    font-size: 50px;
+                    line-height: 75px;
+                    letter-spacing: 0.3px;
+                    color: #FFFFFF;
+                }
+                .footer__discription{
+                    margin-top: 10px;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 180%;
+                    text-align: center;
+                    letter-spacing: 0.3px;
+                    color: rgba(255, 255, 255, 0.5);
+                }
+
+            }
+            .footer__icon{
+                margin-top: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 0px;
+                gap: 40px;
+                width: 385px;
+                height: 45px;
+            }
+            .footer__copyright{
+                margin-top: 100px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 180%;
+                text-align: center;
+                letter-spacing: 0.3px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}
