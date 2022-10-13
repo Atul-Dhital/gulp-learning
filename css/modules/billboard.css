@@ -2,8 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-left: 121px;
-  padding-right: 122px;
+  margin: 150px 121px auto 122px;
 }
 .billboard .billboard__item .billboard__image {
   width: 500px;

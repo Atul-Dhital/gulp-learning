@@ -1,7 +1,7 @@
 .portfolio {
   width: 1197px;
   height: 945px;
-  padding: 200px 121px 0px 122px;
+  margin-top: 200px;
 }
 .portfolio .portfolio__text {
   width: 590px;
